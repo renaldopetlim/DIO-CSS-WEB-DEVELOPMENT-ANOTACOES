@@ -23,19 +23,19 @@
                         <li>
                             <b>Seletores por Tipo (Tag): </b>Seleciona todos os elementos de um tipo específico.
                         </li>
-                            <p>p{ color: blue; } --- Todas as tags "p" serão azuis</p>
+                            <h5>p{ color: blue; } --- Todas as tags "p" serão azuis</h5>
                         <li>
                             <b>Seletores por ID (#id): </b>Seleciona um elemento com um ID específico.
                         </li>
-                        <p>#menu { background-color: gray; }</p>
+                            <h5>#menu { background-color: gray; }</h5>
                         <li>
                             <b>Seletores por Classe (.class): </b>Seleciona elementos com uma classe específica.
                         </li>
-                        <p>.destaque { font-weight: bold; }</p>
+                            <h5>.destaque { font-weight: bold; }</h5>
                         <li>
                             <b>Seletor Universal (*): </b> Seleciona todos os elementos da página.
                         </li>
-                        <p>* { margin: 0; padding: 0; }</p>
+                            <h5>* { margin: 0; padding: 0; }</h5>
                     </ul>
                 </div>
 
@@ -45,19 +45,19 @@
                         <li>
                             <b>Descendente (espaço):</b> Seleciona elementos dentro de outro elemento.
                         </li>
-                        <p>div p { color: red; } --- Todos os "p" dentro de "div" serão vermelhos.</p>
+                        <h5>div p { color: red; } --- Todos os "p" dentro de "div" serão vermelhos.</h5>
                         <li>
                             <b>Filho (>): </b>Seleciona elementos que são filhos direto.
                         </li>
-                        <p>div > p { color: green; } --- Apenas "p" que sejam filhos diretos de "div".</p>
+                        <h5>div > p { color: green; } --- Apenas "p" que sejam filhos diretos de "div".</h5>
                         <li>
                             <b>Irmão Adjacente (+):</b> Seleciona um elemento que vem logo após outro.
                         </li>
-                        <p>h1 + p { color: orange; } --- O primeiro "p" depois de um "h1" será laranja.</p>
+                        <h5>h1 + p { color: orange; } --- O primeiro "p" depois de um "h1" será laranja.</h5>
                         <li>
                             <b>Irmãos Gerais (~): </b>Seleciona todos os elementos irmãos que vêm depois.
                         </li>
-                        <p>h1 ~ p { color: pink; } --- Todos os "p" depois de um "h1" serão rosas.</p>
+                        <h5>h1 ~ p { color: pink; } --- Todos os "p" depois de um "h1" serão rosas.</h5>
                     </ul>
                 </div>
 
@@ -67,23 +67,23 @@
                         <li>
                             <b>Por existência:</b>
                         </li>
-                        <p>[title] { color: blue; } --- Elementos que possuem o atributo "title".</p>
+                        <h5>[title] { color: blue; } --- Elementos que possuem o atributo "title".</h5>
                         <li>
                             <b>Por valor exato:</b>
                         </li>
-                        <p>[type="text"] { border: 1px solid black; } --- Apenas inputs type="text".</p>
+                        <h5>[type="text"] { border: 1px solid black; } --- Apenas inputs type="text".</h5>
                         <li>
                             <b>Por valor que contém (*=):</b>
                         </li>
-                        <p>[class*="box"] { background-color: yellow; } --- Qualquer classe que contenha "box".</p>
+                        <h5>[class*="box"] { background-color: yellow; } --- Qualquer classe que contenha "box".</h5>
                         <li>
                             <b>Por valor que começa (^=):</b>
                         </li>
-                        <p>[href^="https"] { color: green; } --- Links que começam com "https".</p>
+                        <h5>[href^="https"] { color: green; } --- Links que começam com "https".</h5>
                         <li>
                             <b>Por valor que termina ($=):</b>
                         </li>
-                        <p>[src$=".jpg"] { border-radius: 10px; } --- Imagens que terminam com ".jpg".</p>
+                        <h5>[src$=".jpg"] { border-radius: 10px; } --- Imagens que terminam com ".jpg".</h5>
                     </ul>
                 </div>
 
@@ -93,107 +93,193 @@
                         <li>
                             <b>Estado de um elemento:</b>
                         </li>
-                        <p>
+                        <h5>
                             a:hover { color: red; } /* Quando o mouse passa sobre o link.<br>
                             input:focus { border-color: blue; } /* Quando o input está focado.
-                        </p>
+                        </h5>
                         <li>
                             <b>Posição dentro do pai:</b>
                         </li>
-                        <p>
+                        <h5>
                             ul li:first-child { font-weight: bold; } /* Primeiro item de uma lista.<br>
                             ul li:last-child { font-style: italic; } /* Último item de uma lista.
-                        </p>
+                        </h5>
                         <li>
                             <b>Baseado em um padrão:</b>
                         </li>
-                        <p>
+                        <h5>
                             tr:nth-child(odd) { background-color: lightgray; } /* Linhas ímpares da tabela.<br>
                             tr:nth-child(even) { background-color: white; } /* Linhas pares da tabela.
-                        </p>
+                        </h5>
                     </ul>
                 </div>
 
                 <div>
                     <h3>5. Seletores Pseudo-elementos</h3>
                     <ul>
-                        <li>
-                            <b>Antes e depois do conteúdo:</b>
-                        </li>
-                        <p>
+                        <li><b>Antes e depois do conteúdo:</b></li>
+                        <h5>
                             p::before { content: "👉 "; } --- Adiciona um emoji antes de "p".<br>
                             p::after { content: " 🔥"; } --- Adiciona um emoji depois de "p".
-                        </p>
+                        </h5>
                         <li>
                             <b>Primeira letra ou linha:</b>
                         </li>
-                        <p>
+                        <h5>
                             p::first-letter { font-size: 2em; } --- Primeira letra maior.<br>
                             p::first-line { color: gray; } --- Primeira linha em cinza.
-                        </p>
+                        </h5>
                     </ul>
                 </div>
             </div>
         </article>
 
-        <!--<article>
-            <h1>Propriedades Básicas do CSS</h1>
+        <article>
+            <h1>Margin, Padding e Box-Sizing</h1>
             <div>
-                <h3>Margin, Padding e Box-Sizing</h3>
-                <div>
-                    <h4>Margin: Espaçamento por fora dos elementos</h4>
-                    <p>Um Valor: aplica aos 4 lados<br>
-                        Dois Valores: Aplica em cima e embaixo<br>
-                        Três Valores: Aplica em cima, lados e embaixo<br>
-                        Quatro Valores: Aplica em cima, direita, embaixo e esquerda.
-                    </p>
-                    <ul>
-                        <li>margin-top</li>
-                        <li>margin-right</li>
-                        <li>margin-bottom</li>
-                        <li>margin-left</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Padding: Espaçamento por dentro dos elementos</h4>
-                    <p>Um Valor: aplica aos 4 lados<br>
-                        Dois Valores: Aplica em cima e embaixo<br>
-                        Três Valores: Aplica em cima, lados e embaixo<br>
-                        Quatro Valores: Aplica em cima, direita, embaixo e esquerda.
-                    </p>
-                    <ul>
-                        <li>padding-top</li>
-                        <li>padding-right</li>
-                        <li>padding-bottom</li>
-                        <li>padding-left</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Box Sizing: é uma propriedade do CSS que define como a largura e altura de um 
-                        elemento são calculadas. Ele pode assumir dois valores principais:</h4>
-                    <ul>
-                        <li>
-                            border-box:  A largura e altura incluem o conteúdo, o padding e a borda. 
-                            Ou seja, o tamanho total do elemento permanece fixo, independentemente do 
-                            padding ou da borda.
-                        </li>
-                        <li>
-                            content-box (padrão): A largura e altura definidas consideram apenas o 
-                            conteúdo do elemento. As bordas e o preenchimento (padding) são adicionados 
-                            a essa dimensão, aumentando o tamanho total do elemento.
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Width e Heigth</h3>
-                    <ul>
-                        <li>width (largura)</li>
-                        <li>height (altura)</li>
-                        <li>max-width e min-width (largura mínima/máxima)</li>
-                        <li>max-height e min-height (altura mínima/máxima)</li>
-                    </ul>
-                </div>
+                <h3>Margin</h3>
+                <p>A margin define o espaço externo ao redor de um elemento. 
+                    Ela controla a distância entre um elemento e os outros elementos ao seu redor.
+                </p>
             </div>
-        </article>-->
+            <div>
+                <h3>Padding</h3>
+                <p>O padding define o espaço interno entre o conteúdo do elemento e sua borda.</p>
+            </div>
+            <div>
+                <h4>Exemplos de Aplicação de Margin e Padding</h4>
+                <ul>
+                    <li>Um Valor: aplica aos 4 lados</li>
+                        <h5>margin: 20px; --- Espaçamento externo de 20px em todas as direções.</h5>
+                    <li>Dois Valores: Aplica em cima e embaixo</li>
+                        <h5>margin: 20px 20px --- (top, bottom)</h5>
+                    <li>Três Valores: Aplica em cima, lados e embaixo</li>
+                        <h5>margin: 10px 30px 10px: --- (top, left/right, bottom)</h5>
+                    <li>Quatro Valores: Aplica em cima, direita, embaixo e esquerda.</li>
+                        <h5>margin: 10px 20px 30px 40px; --- (top, right, bottom, left).</h5>
+                    <div>
+                        <h4>Também pode ser definido individualmente:</h4>
+                        <div style="display: flex; gap: 25px;">
+                            <ul>
+                                <li>margin-top: 10px;</li>
+                                <li>margin-right: 15px;</li>
+                                <li>margin-bottom: 20px;</li>
+                                <li>margin-left: 25px;</li>
+                            </ul>
+                            <ul>
+                                <li>padding-top: 30px;</li>
+                                <li>padding-right: 25px;</li>
+                                <li>padding-bottom: 20px;</li>
+                                <li>padding-left: 15px;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Box-Sizing</h3>
+                <p>Define como a largura e altura de um elemento são calculadas.</p>
+                <ul>
+                    <li><b>content-box (padrão): </b>largura e altura não incluem padding e border.</li>
+                        <p>Por padrão, o CSS usa content-box, o que significa que width e height incluem 
+                            apenas o conteúdo, e padding e border são adicionados depois.
+                        </p>
+                    <li><b>border-box:</b> largura e altura incluem padding e border.</li>
+                        <p>Se usamos border-box, width e height incluirão padding e border, 
+                            facilitando o controle do tamanho dos elementos.
+                        </p>
+                </ul>
+                <p>Para evitar problemas de dimensionamento, 
+                    é comum aplicar box-sizing: border-box; globalmente:
+                </p>
+            </div>
+
+            <div>
+                <h3>Width e Height</h3>
+                <ul>
+                    <li><b>Width:</b> A propriedade width define a largura de um elemento. 
+                        Pode ser expressa em várias unidades como px, %, vw, entre outras.
+                    </li><br>
+                    <ul>
+                        <li><b>Exemplo Simples:</b></li>
+                            <h5>width: 300px; --- Define uma largura fixa de 300px.</h5>
+                        <li><b>Exemplo com Porcentagem:</b></li>
+                            <h5>width: 50%; --- Ocupa 50% da largura do elemento pai.</h5>
+                        <li><b>Exemplo com vw (Viewport Width - Largura da Tela):</b></li>
+                            <h5>width: 80vw; --- 80% da largura da janela do navegador.</h5>
+                    </ul>
+                    <li><b>Height:</b> A propriedade height define a altura de um elemento. 
+                        Pode ser expressa em px, %, vh, entre outras unidades.
+                    </li><br>
+                    <ul>
+                        <li><b>Exemplo Simples:</b></li>
+                            <h5>height: 200px; --- Define uma largura fixa de 200px.</h5>
+                        <li><b>Exemplo com Porcentagem:</b></li>
+                            <h5>height: 30%; --- Ocupa 30% da largura do elemento pai.</h5>
+                        <li><b>Exemplo com vw (Viewport Width - Largura da Tela):</b></li>
+                            <h5>height: 60vw; --- 60% da largura da janela do navegador.</h5>
+                    </ul>
+                </ul>
+            </div>
+        </article>
+
+        <article>
+            <h1>Cores</h1>
+            <p>Exitem várias formas de definirmos cores utilizando o CSS.</p>
+            <ul>
+                <li><b>Cores pré-definidas:</b></li>
+                    <p>São nomes de cores já estabelecidos pelo CSS, como red, blue, green, yellow, etc.</p>
+                    <h5>color: red; --- Define a cor do texto como vermelho.<br>
+                        background-color: blue; --- Define o fundo como azul.
+                    </h5>
+                <li><b>Palavra-chave (current-color):</b></li>
+                    <p>Representa a cor herdada do texto (color) do elemento pai.</p>
+                    <h5>border: 2px solid currentColor; --- A borda usará a mesma cor do texto</h5>
+                <li><b>Hexadecimal:</b></li>
+                    <p>Representa cores usando um código de seis caracteres (ou três para um formato 
+                        curto) que combina vermelho, verde e azul (RGB).
+                    </p>
+                    <h5>color: #ff0000; --- Vermelho.<br>
+                        color: #00ff00; --- Verde.<br>
+                        color: #0000ff; --- Azul.<br>
+                        color: #f00;    --- Vermelho no formato curto.</h5>
+                <li><b>Hexadecimal com Transparência:</b></li>
+                    <p>
+                        Semelhante ao formato hexadecimal, mas inclui um canal alfa (#RRGGBBAA), 
+                        onde AA representa a transparência.
+                    </p>
+                    <h5>color: #ff000080; --- Vermelho com 50% de transparência.<br>
+                        color: #00ff007f; --- Verde com cerca de 50% de opacidade.
+                    </h5>
+                <li><b>RGB:</b></li>
+                    <p>Define cores usando valores decimais de 0 a 255 para vermelho, verde e azul.</p>
+                    <h5>color: rgb(255, 0, 0); --- Vermelho.<br>
+                        color: rgb(0, 255, 0); --- Verde.<br>
+                        color: rgb(0, 0, 255); --- Azul.
+                    </h5>
+                <li><b>rgba:</b></li>
+                    <p>Semelhante ao rgb, mas com um quarto valor para a opacidade (0 a 1).</p>
+                    <h5>color: rgba(255, 0, 0, 0.5); --- Vermelho com 50% de transparência.<br>
+                        color: rgba(0, 0, 255, 0.3); --- Azul com 30% de opacidade.
+                    </h5>
+                <li><b>hsl:</b></li>
+                    <p>Define cores com três valores:<br>
+                        <ul>
+                            <li>Matiz (hue, de 0 a 360°),</li>
+                            <li>Saturação (saturation, de 0% a 100%)</li>
+                            <li>Luminosidade (lightness, de 0% a 100%)</li>
+                        </ul>
+                    <h5>color: hsl(0, 100%, 50%); --- Vermelho.<br>
+                        color: hsl(120, 100%, 50%); --- Verde.<br>
+                        color: hsl(240, 100%, 50%); --- Azul.
+                    </h5>
+                <li><b>hsla:</b></li>
+                    <p>Mesma estrutura do hsl, mas inclui o canal alfa (opacidade).</p>
+                    <h5>color: hsla(0, 100%, 50%, 0.5); --- Vermelho com 50% de transparência.<br>
+                        color: hsla(240, 100%, 50%, 0.3); --- Azul com 30% de opacidade.
+                    </h5>
+            </ul>
+        </article>
 </body>
 </html>
