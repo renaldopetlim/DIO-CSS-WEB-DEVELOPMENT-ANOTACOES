@@ -217,7 +217,7 @@
                             <h5>height: 200px; --- Define uma largura fixa de 200px.</h5>
                         <li><b>Exemplo com Porcentagem:</b></li>
                             <h5>height: 30%; --- Ocupa 30% da largura do elemento pai.</h5>
-                        <li><b>Exemplo com vw (Viewport Width - Largura da Tela):</b></li>
+                        <li><b>Exemplo com vh (Viewport Height - Altura da Tela):</b></li>
                             <h5>height: 60vw; --- 60% da largura da janela do navegador.</h5>
                     </ul>
                 </ul>
@@ -280,6 +280,59 @@
                         color: hsla(240, 100%, 50%, 0.3); --- Azul com 30% de opacidade.
                     </h5>
             </ul>
+        </article>
+
+        <article>
+            <h3>Object-Fit e Object-Position</h3>
+            <p>As propriedades object-fit e object-position são usadas para controlar como 
+                uma mídia (como imagens e vídeos) se ajusta dentro de um elemento contêiner.
+            </p>
+            <div>
+                <h4>Object-fit</h4>
+                <p>A propriedade object-fit define como o conteúdo da mídia será 
+                    redimensionado para caber dentro do seu contêiner.
+                </p>
+                <div>
+                    <h4>Valores de object-fit:</h4>
+                    <ul>
+                        <li><b>fill (padrão): </b>
+                            A mídia será redimensionada para preencher todo o contêiner, 
+                            podendo distorcer a imagem.
+                        </li>
+                        <li><b>contain: </b>
+                            A mídia será redimensionada para caber completamente 
+                            no contêiner sem cortar partes, podendo sobrar espaço.
+                        </li>
+                        <li><b>cover: </b>
+                            A mídia preencherá todo o contêiner, podendo cortar 
+                            partes para manter a proporção.
+                        </li>
+                        <li><b>none: </b>
+                            Mantém o tamanho original da mídia sem redimensioná-la.
+                        </li>
+                        <li><b>scale-down: </b>
+                            A mídia será o menor tamanho possível entre none e contain.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>Object-Position</h4>
+                <p>A propriedade object-position define a posição do conteúdo dentro do 
+                    contêiner quando object-fit não preenche todo o espaço.
+                </p>
+                <div>
+                    <h4>Valores de object-fit:</h4>
+                    <ul>
+                        <li><b>x: </b>
+                            Define o deslocamento horizontal (exemplo: left, center, right, 50%, 10px).
+                        </li>
+                        <li><b>y: </b>
+                            Define o deslocamento vertical (exemplo: top, center, bottom, 50%, 10px).
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </article>
     </main>
 </body>
