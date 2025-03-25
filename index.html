@@ -339,6 +339,23 @@
         <article>
             <h1>Fundo dos Elementos (Backgrounds)</h1>
             <div>
+                <h3>background</h3>
+                <p>A propriedade background no CSS é um atalho que permite definir várias propriedades de 
+                    fundo de uma só vez, simplificando o código.
+                </p>
+                <h4>Valores:</h4>
+                <ul>
+                    <li>background-color --- Define a cor de fundo.</li>
+                    <li>background-image --- Define a imagem de fundo.</li>
+                    <li>background-position --- Define a posição da imagem de fundo.</li>
+                    <li>background-size --- Define o tamanho da imagem de fundo.</li>
+                    <li>background-repeat --- Define se a imagem se repete.</li>
+                    <li>background-attachment --- Define se a imagem rola ou fica fixa.</li>
+                    <li>background-origin --- Define onde a imagem de fundo começa.</li>
+                    <li>background-clip --- Define até onde o fundo se estende.</li>
+                </ul>
+            </div>
+            <div>
                 <h3>background-color</h3>
                 <p>A propriedade background-color em CSS define a cor de fundo de um elemento. 
                     Pode ser especificada usando nomes de cores, valores hexadecimais, RGB, RGBA, HSL ou HSLA.</p>
@@ -586,6 +603,93 @@
                 <p>A propriedade background-attachment é útil para criar efeitos visuais interessantes, 
                     como parallax scrolling (fixed) ou rolagem independente em elementos (local).
                 </p>
+            </div>
+            <div>
+                <h3>background-origin e background-clip</h3>
+                <div>
+                    <p>A propriedade background-origin no CSS define a origem da imagem de fundo, 
+                        ou seja, onde o plano de fundo começa dentro do elemento.
+                    </p>
+                    <h5>background-origin: valor;</h5>
+                    <p>Para que essa propriedade tenha efeito, a propriedade background-clip deve estar 
+                        configurada corretamente e o background não pode estar definido como 
+                        background-size: cover; ou contain;.
+                    </p>
+                    <ul>
+                        <li>padding-box (Padrão)</li>
+                            <p>A imagem de fundo começa na borda interna do padding do elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-origin: padding-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>A imagem de fundo não cobre a área da borda, apenas começa dentro do padding.</p>
+                        <li>border-box</li>
+                            <p>A imagem de fundo começa na borda externa, incluindo a área da borda.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-origin: border-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>A imagem de fundo se estende até a borda do elemento.</p>
+                        <li>content-box</li>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-origin: content-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>A imagem de fundo começa dentro do conteúdo, sem cobrir a área do padding e da borda.</p>
+                    </ul>
+                    <p>A propriedade background-origin é útil para definir onde a imagem de fundo começa 
+                        dentro do elemento, permitindo maior controle sobre o layout e aparência do fundo.
+                    </p>
+                </div>
+                <div>
+                    <p>A propriedade background-clip no CSS define até onde o fundo (background) do elemento 
+                        se estende, ou seja, se ele ficará visível apenas na área do conteúdo, no padding 
+                        ou na borda.
+                    </p>
+                    <h5>background-clip: valor;</h5>
+                    <p>Essa propriedade afeta apenas o fundo do elemento (background), 
+                        não afeta a borda nem o conteúdo.
+                    </p>
+                    <ul>
+                        <li>padding-box (Padrão)</li>
+                            <p>O fundo se estende até a borda do elemento, cobrindo toda a área (conteúdo, padding e borda).</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-clip: border-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>O fundo cobre até a borda do elemento.</p>
+                        <li>border-box</li>
+                            <p>O fundo para no padding, ou seja, não se estende até a borda.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-clip: padding-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>O fundo fica dentro da área de padding, sem cobrir a borda.</p>
+                        <li>content-box</li>
+                            <p>O fundo fica apenas na área do conteúdo, ignorando o padding e a borda.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-clip: content-box;<br>
+                                border: 10px solid black;<br>
+                                padding: 20px;
+                            </h5>
+                            <p>O fundo aparece apenas na área do conteúdo, sem cobrir o padding e a borda.</p>
+                    </ul>
+                    <p>A propriedade background-clip permite definir até onde o fundo do elemento se 
+                        estende, sendo útil para efeitos visuais mais refinados, como evitar que o fundo 
+                        cubra a borda ou até criar efeitos personalizados no texto.
+                    </p>
+                </div>
             </div>
         </article>
     </main>
