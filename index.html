@@ -8,127 +8,112 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>CSS Web Developer</h1>
     </header>
     <main>
-        <article>
+        <article class="seletores">
             <h1>Seletores CSS</h1>
-            <p>Os seletores CSS são usados para aplicar estilos a elementos HTML. Existem vários tipos de 
+            <p class="seletores-descricao">Os seletores CSS são usados para aplicar estilos a elementos HTML. Existem vários tipos de 
                 seletores, cada um com uma função específica.</p>
-            <div>
+            <div class="seletores-flex-1">
                 <div>
                     <h3>1. Seletores Básicos</h3>
                     <ul>
-                        <li>
-                            <b>Seletores por Tipo (Tag): </b>Seleciona todos os elementos de um tipo específico.
-                        </li>
-                            <h5>p{ color: blue; } --- Todas as tags "p" serão azuis</h5>
-                        <li>
-                            <b>Seletores por ID (#id): </b>Seleciona um elemento com um ID específico.
-                        </li>
+                        <li>Seletores por Tipo (Tag):</li>
+                            <p>Seleciona todos os elementos de um tipo específico.</p>
+                            <h5>p { color: blue; }</h5>
+                        <li>Seletores por ID (#id):</li>
+                            <p>Seleciona um elemento com um ID específico.</p>
                             <h5>#menu { background-color: gray; }</h5>
-                        <li>
-                            <b>Seletores por Classe (.class): </b>Seleciona elementos com uma classe específica.
-                        </li>
+                        <li>Seletores por Classe (.class):</li>
+                            <p>Seleciona elementos com uma classe específica.</p>
                             <h5>.destaque { font-weight: bold; }</h5>
-                        <li>
-                            <b>Seletor Universal (*): </b> Seleciona todos os elementos da página.
-                        </li>
+                        <li>Seletor Universal (*):</li>
+                            <p>Seleciona todos os elementos da página.</p>
                             <h5>* { margin: 0; padding: 0; }</h5>
                     </ul>
                 </div>
-
                 <div>
                     <h3>2. Seletores Combinadores</h3>
                     <ul>
-                        <li>
-                            <b>Descendente (espaço):</b> Seleciona elementos dentro de outro elemento.
-                        </li>
-                        <h5>div p { color: red; } --- Todos os "p" dentro de "div" serão vermelhos.</h5>
-                        <li>
-                            <b>Filho (>): </b>Seleciona elementos que são filhos direto.
-                        </li>
-                        <h5>div > p { color: green; } --- Apenas "p" que sejam filhos diretos de "div".</h5>
-                        <li>
-                            <b>Irmão Adjacente (+):</b> Seleciona um elemento que vem logo após outro.
-                        </li>
-                        <h5>h1 + p { color: orange; } --- O primeiro "p" depois de um "h1" será laranja.</h5>
-                        <li>
-                            <b>Irmãos Gerais (~): </b>Seleciona todos os elementos irmãos que vêm depois.
-                        </li>
-                        <h5>h1 ~ p { color: pink; } --- Todos os "p" depois de um "h1" serão rosas.</h5>
+                        <li>Descendente (espaço):</li>
+                            <p>Seleciona elementos dentro de outro elemento.</p>
+                            <h5>div p { color: red; }</h5>
+                            <p>Todos os "p" dentro de "div" serão vermelhos.</p>
+                        <li>Filho (>):</li>
+                            <p>Seleciona elementos que são filhos direto.</p>
+                            <h5>div > p { color: green; }</h5>
+                            <p>Apenas "p" que sejam filhos diretos de "div".</p>
+                        <li>Irmão Adjacente (+):</li>
+                            <p>Seleciona um elemento que vem logo após outro.</p>
+                            <h5>h1 + p { color: orange; }</h5>
+                            <p>O primeiro "p" depois de um "h1" será laranja.</p>
+                        <li>Irmãos Gerais (~):</li>
+                            <p>Seleciona todos os elementos irmãos que vêm depois.</p>
+                            <h5>h1 ~ p { color: pink; }</h5>
+                            <p>Todos os "p" depois de um "h1" serão rosas.</p>
                     </ul>
                 </div>
+            </div>
 
+            <div class="seletores-flex-2">
                 <div>
                     <h3>3. Seletores de Atributos</h3>
                     <ul>
-                        <li>
-                            <b>Por existência:</b>
-                        </li>
-                        <h5>[title] { color: blue; } --- Elementos que possuem o atributo "title".</h5>
-                        <li>
-                            <b>Por valor exato:</b>
-                        </li>
-                        <h5>[type="text"] { border: 1px solid black; } --- Apenas inputs type="text".</h5>
-                        <li>
-                            <b>Por valor que contém (*=):</b>
-                        </li>
-                        <h5>[class*="box"] { background-color: yellow; } --- Qualquer classe que contenha "box".</h5>
-                        <li>
-                            <b>Por valor que começa (^=):</b>
-                        </li>
-                        <h5>[href^="https"] { color: green; } --- Links que começam com "https".</h5>
-                        <li>
-                            <b>Por valor que termina ($=):</b>
-                        </li>
-                        <h5>[src$=".jpg"] { border-radius: 10px; } --- Imagens que terminam com ".jpg".</h5>
+                        <li>Por existência:</li>
+                            <h5>[title] { color: blue; }</h5>
+                            <p>Elementos que possuem o atributo "title".</p>
+                        <li>Por valor exato:</li>
+                            <h5>[type="text"] { border: 1px solid black; }</h5>
+                            <p>Apenas inputs type="text".</p>
+                        <li>Por valor que contém (*=):</li>
+                            <h5>[class*="box"] { background-color: yellow; }</h5>
+                            <p>Qualquer classe que contenha "box".</p>
+                        <li>Por valor que começa (^=):</li>
+                            <h5>[href^="https"] { color: green; }</h5>
+                            <p>Links que começam com "https".</p>
+                        <li>Por valor que termina ($=):</li>
+                            <h5>[src$=".jpg"] { border-radius: 10px; }</h5>
+                            <p>Imagens que terminam com ".jpg".</p>
                     </ul>
                 </div>
-
                 <div>
                     <h3>4. Seletores Pseudo-classes</h3>
                     <ul>
-                        <li>
-                            <b>Estado de um elemento:</b>
-                        </li>
-                        <h5>
-                            a:hover { color: red; } /* Quando o mouse passa sobre o link.<br>
-                            input:focus { border-color: blue; } /* Quando o input está focado.
-                        </h5>
-                        <li>
-                            <b>Posição dentro do pai:</b>
-                        </li>
-                        <h5>
-                            ul li:first-child { font-weight: bold; } /* Primeiro item de uma lista.<br>
-                            ul li:last-child { font-style: italic; } /* Último item de uma lista.
-                        </h5>
-                        <li>
-                            <b>Baseado em um padrão:</b>
-                        </li>
-                        <h5>
-                            tr:nth-child(odd) { background-color: lightgray; } /* Linhas ímpares da tabela.<br>
-                            tr:nth-child(even) { background-color: white; } /* Linhas pares da tabela.
-                        </h5>
+                        <li>Estado de um elemento:</li>
+                            <h5>a:hover { color: red; }</h5>
+                            <p>Quando o mouse passa sobre o link.</p>
+                            <h5>input:focus { border-color: blue; }</h5>
+                            <p>Quando o input está focado.</p>
+                        <li>Posição dentro do pai:</li>
+                            <h5>ul li:first-child { font-weight: bold; }</h5>
+                            <p>Primeiro item de uma lista.</p>
+                            <h5>ul li:last-child { font-style: italic; }</h5>
+                            <p>Último item de uma lista.</p>
+                        <li>Baseado em um padrão:</li>
+                            <h5>tr:nth-child(odd) { background-color: lightgray; }</h5>
+                            <p>Linhas ímpares da tabela.</p>
+                            <h5>tr:nth-child(even) { background-color: white; }</h5>
+                            <p>Linhas pares da tabela.</p>
                     </ul>
                 </div>
+            </div>
 
+            <div class="seletores-flex-3">
                 <div>
                     <h3>5. Seletores Pseudo-elementos</h3>
                     <ul>
-                        <li><b>Antes e depois do conteúdo:</b></li>
-                        <h5>
-                            p::before { content: "👉 "; } --- Adiciona um emoji antes de "p".<br>
-                            p::after { content: " 🔥"; } --- Adiciona um emoji depois de "p".
-                        </h5>
-                        <li>
-                            <b>Primeira letra ou linha:</b>
-                        </li>
-                        <h5>
-                            p::first-letter { font-size: 2em; } --- Primeira letra maior.<br>
-                            p::first-line { color: gray; } --- Primeira linha em cinza.
-                        </h5>
+                        <li>Antes e depois do conteúdo:</li>
+                            <h5>p::before { content: "👉 "; }</h5>
+                            <p>Adiciona um emoji antes de "p".</p>
+                            <h5>p::after { content: " 🔥"; }</h5>
+                            <p>Adiciona um emoji depois de "p".</p>
+                        <li>Primeira letra ou linha:</li>
+                            <h5>p::first-letter { font-size: 2em; }</h5>
+                            <p>Primeira letra maior.</p>
+                            <h5> p::first-line { color: gray; }</h5>
+                            <p>Primeira linha em cinza.</p>
                     </ul>
                 </div>
             </div>
