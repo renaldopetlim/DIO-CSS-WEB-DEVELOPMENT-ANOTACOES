@@ -5,8 +5,125 @@
     background-color: antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-    header{
+    h5{
+        font-family: 'Consolas', sans-serif;
+    }
+        /* ------ */
+    #header{
         display: flex;
         justify-content: center;
-        margin: 15px 15px;
+        margin: 6px 0 6px 0;
     }
+        #header h1{
+            background-color: darkorange;
+            border-radius: 10px;
+            padding: 4px 25px 4px 25px;
+        }
+        /* ------ */
+        /* .seletores */
+            .seletores h1{
+                display: flex;
+                justify-content: center;
+            }
+            .seletores-descricao{
+                margin: 8px 0 8px 25px;
+                font-size: 18px;
+            }
+            .seletores-flex-1{
+                display: flex;
+                justify-content: center;
+                gap: 5vw;
+            }
+                .seletores-flex-1 div{
+                    width: 45vw;
+                }
+                    .seletores-flex-1 h3{
+                        display: flex;
+                        justify-content: center;
+                        margin: 0 25px 5px 25px;
+                        padding: 4px 20px 4px 20px;
+                        background-color: tomato;
+                        border-radius: 10px;
+                    }
+                        .seletores-flex-1 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-top: 10px;
+                        }
+                        .seletores-flex-1 ul p{
+                            font-size: 14px;
+                            margin: 5px 0 0 15px;
+                        }
+                                .seletores-flex-1 ul p:last-child{
+                                    font-size: 12px;
+                                    padding-left: 25px;
+                                }
+                        .seletores-flex-1 ul h5{
+                            font-size: 12px;
+                            margin: 5px 0 0 40px;
+                        }
+            .seletores-flex-2{
+                display: flex;
+                justify-content: center;
+                gap: 5vw;
+            }
+                .seletores-flex-2 div{
+                    width: 45vw;
+                }
+                    .seletores-flex-2 h3{
+                        display: flex;
+                        justify-content: center;
+                        margin: 5px 25px 5px 25px;
+                        padding: 4px 20px 4px 20px;
+                        background-color: tomato;
+                        border-radius: 10px;
+                    }
+                        .seletores-flex-2 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-top: 10px;
+                        }
+                        .seletores-flex-2 ul p{
+                            font-size: 14px;
+                            margin: 5px 0 0 15px;
+                        }
+                                .seletores-flex-2 ul p:last-child{
+                                    font-size: 12px;
+                                    padding-left: 25px;
+                                }
+                        .seletores-flex-2 ul h5{
+                            font-size: 12px;
+                            margin: 5px 0 0 40px;
+                        }
+            .seletores-flex-3{
+                display: flex;
+                margin-left: 2vw;
+            }
+                .seletores-flex-3 div{
+                    width: 45vw;
+                }
+                    .seletores-flex-3 h3{
+                        display: flex;
+                        justify-content: center;
+                        margin: 5px 25px 5px 25px;
+                        padding: 4px 20px 4px 20px;
+                        background-color: tomato;
+                        border-radius: 10px;
+                    }
+                        .seletores-flex-3 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-top: 10px;
+                        }
+                        .seletores-flex-3 ul p{
+                            font-size: 14px;
+                            margin: 5px 0 0 15px;
+                        }
+                                .seletores-flex-3 ul p:last-child{
+                                    font-size: 12px;
+                                    padding-left: 25px;
+                                }
+                        .seletores-flex-3 ul h5{
+                            font-size: 12px;
+                            margin: 5px 0 0 40px;
+                        }
