@@ -123,48 +123,53 @@
             <h1>Margin, Padding e Box-Sizing</h1>
             <div>
                 <h3>Margin</h3>
-                <p>A margin define o espaço externo ao redor de um elemento. 
+                <p class="box-descricao">A margin define o espaço externo ao redor de um elemento. 
                     Ela controla a distância entre um elemento e os outros elementos ao seu redor.
                 </p>
             </div>
             <div>
                 <h3>Padding</h3>
-                <p>O padding define o espaço interno entre o conteúdo do elemento e sua borda.</p>
+                <p class="box-descricao">O padding define o espaço interno entre o conteúdo do elemento e sua borda.</p>
             </div>
-            <div>
-                <h4>Exemplos de Aplicação de Margin e Padding</h4>
-                <ul>
-                    <li>Um Valor: aplica aos 4 lados</li>
-                        <h5>margin: 20px; --- Espaçamento externo de 20px em todas as direções.</h5>
-                    <li>Dois Valores: Aplica em cima e embaixo</li>
-                        <h5>margin: 20px 20px --- (top, bottom)</h5>
-                    <li>Três Valores: Aplica em cima, lados e embaixo</li>
-                        <h5>margin: 10px 30px 10px: --- (top, left/right, bottom)</h5>
-                    <li>Quatro Valores: Aplica em cima, direita, embaixo e esquerda.</li>
-                        <h5>margin: 10px 20px 30px 40px; --- (top, right, bottom, left).</h5>
-                    <div>
-                        <h4>Também pode ser definido individualmente:</h4>
-                        <div style="display: flex; gap: 25px;">
-                            <ul>
-                                <li>margin-top: 10px;</li>
-                                <li>margin-right: 15px;</li>
-                                <li>margin-bottom: 20px;</li>
-                                <li>margin-left: 25px;</li>
-                            </ul>
-                            <ul>
-                                <li>padding-top: 30px;</li>
-                                <li>padding-right: 25px;</li>
-                                <li>padding-bottom: 20px;</li>
-                                <li>padding-left: 15px;</li>
-                            </ul>
-                        </div>
+            <div class="box-table-1">
+                <div>
+                    <h4>Exemplos de Aplicação de Margin e Padding</h4>
+                    <ul class="li-5">
+                        <li><b>Um Valor:</b> aplica aos 4 lados</li>
+                            <h5>margin: 20px;</h5>
+                            <p>Espaçamento externo de 20px em todas as direções.</p>
+                        <li><b>Dois Valores:</b> aplica em cima e embaixo</li>
+                            <h5>margin: 20px 20px;</h5>
+                            <p>(top, bottom)</p>
+                        <li><b>Três Valores: </b>aplica em cima, lados e embaixo</li>
+                            <h5>margin: 10px 30px 10px;</h5>
+                            <p>(top, left/right, bottom)</p>
+                        <li><b>Quatro Valores:</b> aplica em cima, direita, embaixo e esquerda.</li>
+                            <h5>margin: 10px 20px 30px 40px;</h5>
+                            <p>(top, right, bottom, left)</p>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Também pode ser definido individualmente:</h4>
+                    <div class="li-6">
+                        <ul>
+                            <li>margin-top: 10px;</li>
+                            <li>margin-right: 15px;</li>
+                            <li>margin-bottom: 20px;</li>
+                            <li>margin-left: 25px;</li>
+                        </ul>
+                        <ul>
+                            <li>padding-top: 30px;</li>
+                            <li>padding-right: 25px;</li>
+                            <li>padding-bottom: 20px;</li>
+                            <li>padding-left: 15px;</li>
+                        </ul>
                     </div>
-                </ul>
+                </div>
             </div>
-
-            <div>
+            <div class="box-table-2">
                 <h3>Box-Sizing</h3>
-                <p>Define como a largura e altura de um elemento são calculadas.</p>
+                <p class="box-descricao">Define como a largura e altura de um elemento são calculadas.</p>
                 <ul>
                     <li><b>content-box (padrão): </b>largura e altura não incluem padding e border.</li>
                         <p>Por padrão, o CSS usa content-box, o que significa que width e height incluem 
@@ -175,7 +180,7 @@
                             facilitando o controle do tamanho dos elementos.
                         </p>
                 </ul>
-                <p>Para evitar problemas de dimensionamento, 
+                <p class="box-descricao desc-1">Para evitar problemas de dimensionamento, 
                     é comum aplicar box-sizing: border-box; globalmente:
                 </p>
             </div>
@@ -183,9 +188,10 @@
             <div>
                 <h3>Width e Height</h3>
                 <ul>
-                    <li><b>Width:</b> A propriedade width define a largura de um elemento. 
+                    <li>Width:</li>
+                    <p class="box-descricao">A propriedade width define a largura de um elemento. 
                         Pode ser expressa em várias unidades como px, %, vw, entre outras.
-                    </li><br>
+                    </p>
                     <ul>
                         <li><b>Exemplo Simples:</b></li>
                             <h5>width: 300px; --- Define uma largura fixa de 300px.</h5>
@@ -194,9 +200,10 @@
                         <li><b>Exemplo com vw (Viewport Width - Largura da Tela):</b></li>
                             <h5>width: 80vw; --- 80% da largura da janela do navegador.</h5>
                     </ul>
-                    <li><b>Height:</b> A propriedade height define a altura de um elemento. 
+                    <li>Height:</li>
+                    <p class="box-descricao">A propriedade height define a altura de um elemento. 
                         Pode ser expressa em px, %, vh, entre outras unidades.
-                    </li><br>
+                    </p>
                     <ul>
                         <li><b>Exemplo Simples:</b></li>
                             <h5>height: 200px; --- Define uma largura fixa de 200px.</h5>

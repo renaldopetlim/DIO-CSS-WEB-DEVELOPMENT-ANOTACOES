@@ -22,7 +22,7 @@
         }
 
 /* ------------------------------------------------------ */
-        /*.seletores */
+        /*.seletores*/
             .seletores h1{
                 display: flex;
                 justify-content: center;
@@ -135,7 +135,72 @@
                         }
 
 /* ------------------------------------------------------ */
+        /*.box*/
             .box h1{
                 display: flex;
                 justify-content: center;
             }
+                .box h3{
+                    display: flex;
+                    justify-content: center;
+                    margin: 5px 25px 5px 15px;
+                    padding: 4px 20px 4px 20px;
+                    background-color: tomato;
+                    border-radius: 10px;
+                    width: 20vw;
+                }
+                .box-descricao{
+                    margin: 8px 0 8px 40px;
+                    font-size: 14px;
+                }
+            .box-table-1{
+                display: flex;
+                justify-content: center;
+                gap: 5vw;
+            }
+                .box-table-1 div{
+                    width: 45vw;
+                }
+                    .box-table-1 div h4{
+                        display: flex;
+                        justify-content: center;
+                        background-color: sandybrown;
+                        padding: 2px 0 2px 0;
+                        margin-bottom: 5px;
+                        border-radius: 10px;
+                        width: 30vw;
+                    }
+                        .box-table-1 div .li-5 li{
+                            font-size: 15px;
+                            margin: 3px 0 3px 0;
+                        }
+                            .box-table-1 div .li-5 p:nth-child(3n){
+                                font-size: 12px;
+                                margin-left: 40px;
+                            }
+                        .box-table-1 div .li-5 h5{
+                            margin: 0 0 4px 20px;
+                        }
+                            .li-5 p:last-child{
+                                margin-bottom: 10px;
+                            }
+                        .li-6{
+                            display: flex;
+                            gap: 50px;
+                        }
+                            .li-6 ul li{
+                                font-family: 'Consolas', sans-serif;
+                                font-size: 14px;
+                            }
+            /*.box-table-2*/
+                .box-table-2 ul li{
+                    font-size: 16px;
+                    margin: 0 0 5px 20px;
+                }
+                .box-table-2 ul p{
+                    font-size: 14px;
+                    margin: 0 0 5px 40px;
+                }
+                    .desc-1{
+                        margin: 10px 0 0 60px;
+                    }
