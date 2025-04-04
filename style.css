@@ -14,7 +14,7 @@
         h5{
             font-family: 'Consolas', sans-serif;
         }
-/* ------------------------------------------------------ */
+/* --------------------------- HEADER ----------------------------- */
     #header{
         display: flex;
         justify-content: center;
@@ -25,7 +25,7 @@
             border-radius: 10px;
             padding: 4px 60px 4px 60px;
         }
-/* ------------------------------------------------------ */
+/* ------------------------- SELETORES ----------------------------- */
         .seletores{
             margin: 0 40px 0 40px;
         }
@@ -144,17 +144,18 @@
                             font-size: 12px;
                             margin: 5px 0 0 20px;
                         }
-
-/* ------------------------------------------------------ */
-        /*.box*/
-            .box h1{
+/* --------------- MARGIN, PADDING e BOX-SIZING ----------------- */
+        .box-1{
+            margin: 0 40px 0 40px;
+        }
+            .box-1 h1{
                 display: flex;
                 justify-content: center;
-                margin: 15px 80px 15px 80px;
+                margin: 15px 80px 5px 80px;
                 background-color: var(--title-section);
                 border-radius: 10px;
             }
-                .box h3{
+                .box-1 h3{
                     display: flex;
                     justify-content: center;
                     margin: 5px 25px 5px 15px;
@@ -171,6 +172,7 @@
                 display: flex;
                 justify-content: center;
                 gap: 5vw;
+                margin: 0 25px 0 25px;
             }
                 .box-table-1 div{
                     width: 45vw;
@@ -187,6 +189,7 @@
                         .box-table-1 div .li-5 li{
                             font-size: 15px;
                             margin: 3px 0 3px 0;
+                            list-style-type: none;
                         }
                             .box-table-1 div .li-5 p:nth-child(3n){
                                 font-size: 12px;
@@ -210,6 +213,7 @@
                 .box-table-2 ul li{
                     font-size: 16px;
                     margin: 0 0 5px 20px;
+                    list-style-type: none;
                 }
                 .box-table-2 ul p{
                     font-size: 14px;
@@ -224,6 +228,7 @@
                     display: flex;
                     justify-content: center;
                     gap: 5vw;
+                    margin: 0 25px 0 25px;
                 }
                     .tab-3 div{
                         width: 45vw;
@@ -252,5 +257,4 @@
                             .tab-3 ul p{
                                 margin: 5px 0 0 40px;
                             }
-
-/* ------------------------------------------------------ */
+/* ----------------------- CORES ------------------------- */
