@@ -1,13 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+:root{
+    --title-color: darkorange;
+    --title-section: sienna;
+    --sub-title: tomato;
+    --title-mini: sandybrown;
 }
-    h5{
-        font-family: 'Consolas', sans-serif;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+        h5{
+            font-family: 'Consolas', sans-serif;
+        }
 
 /* ------------------------------------------------------ */
     #header{
@@ -16,9 +22,9 @@
         margin: 6px 0 6px 0;
     }
         #header h1{
-            background-color: darkorange;
+            background-color: var(--title-color);
             border-radius: 10px;
-            padding: 4px 25px 4px 25px;
+            padding: 4px 60px 4px 60px;
         }
 
 /* ------------------------------------------------------ */
@@ -27,7 +33,7 @@
                 display: flex;
                 justify-content: center;
                 margin: 0 80px 0 80px;
-                background-color: sienna;
+                background-color: var(--title-section);
                 border-radius: 10px;
             }
             .seletores-descricao{
@@ -47,7 +53,7 @@
                         justify-content: center;
                         margin: 0 25px 5px 25px;
                         padding: 4px 20px 4px 20px;
-                        background-color: tomato;
+                        background-color: var(--sub-title);
                         border-radius: 10px;
                     }
                         .seletores-flex-1 ul li{
@@ -80,7 +86,7 @@
                         justify-content: center;
                         margin: 5px 25px 5px 25px;
                         padding: 4px 20px 4px 20px;
-                        background-color: tomato;
+                        background-color: var(--sub-title);
                         border-radius: 10px;
                     }
                         .seletores-flex-2 ul li{
@@ -116,7 +122,7 @@
                         justify-content: center;
                         margin: 5px 25px 5px 25px;
                         padding: 4px 20px 4px 20px;
-                        background-color: tomato;
+                        background-color: var(--sub-title);
                         border-radius: 10px;
                     }
                         .seletores-flex-3 ul li{
@@ -143,7 +149,7 @@
                 display: flex;
                 justify-content: center;
                 margin: 15px 80px 15px 80px;
-                background-color: sienna;
+                background-color: var(--title-section);
                 border-radius: 10px;
             }
                 .box h3{
@@ -151,7 +157,7 @@
                     justify-content: center;
                     margin: 5px 25px 5px 15px;
                     padding: 4px 20px 4px 20px;
-                    background-color: tomato;
+                    background-color: var(--sub-title);
                     border-radius: 10px;
                     width: 20vw;
                 }
@@ -170,7 +176,7 @@
                     .box-table-1 div h4{
                         display: flex;
                         justify-content: center;
-                        background-color: sandybrown;
+                        background-color: var(--title-mini);
                         padding: 2px 0 2px 0;
                         margin-bottom: 5px;
                         border-radius: 10px;
@@ -223,7 +229,7 @@
                         .tab-3 h4{
                             display: flex;
                             justify-content: center;
-                            background-color: sandybrown;
+                            background-color: var(--title-mini);
                             border-radius: 10px;
                             width: 10vw;
                             padding: 2px 0 2px 0;
