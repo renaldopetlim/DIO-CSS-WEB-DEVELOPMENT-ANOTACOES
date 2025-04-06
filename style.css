@@ -258,3 +258,24 @@
                                 margin: 5px 0 0 40px;
                             }
 /* ----------------------- CORES ------------------------- */
+        .box-2{
+            margin: 0 40px 0 40px;
+        }
+            .box-2 h1{
+                display: flex;
+                justify-content: center;
+                margin: 15px 80px 5px 80px;
+                background-color: var(--title-section);
+                border-radius: 10px;
+            }
+            .cores-descricao{
+                margin: 8px 0 8px 40px;
+                font-size: 14px;
+            }
+            .box-2 ul{
+                display: flex;
+                gap: 30px
+            }
+                .box-2 ul li{
+                    list-style-type: none;
+                }
