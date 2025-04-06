@@ -274,8 +274,25 @@
             }
             .box-2 ul{
                 display: flex;
-                gap: 30px
+                gap: 20px
             }
                 .box-2 ul li{
                     list-style-type: none;
+                    width: 30vw;
                 }
+                    .box-2 ul li h4{
+                        display: flex;
+                        justify-content: center;
+                        background-color: var(--title-mini);
+                        border-radius: 10px;
+                        padding: 2px 0 2px 0;
+                        width: 18vw;
+                    }
+                    .box-2 ul li p{
+                        font-size: 14px;
+                        padding: 4px 0 0 15px;
+                    }
+                    .box-2 ul li h5{
+                        padding: 4px 0 6px 25px;
+                    }
+/* -----------------------  ------------------------- */
