@@ -14,53 +14,50 @@
     </header>
     <main>
         <article class="seletores">
-            <h1>Seletores CSS</h1>
+            <h1 class="seletores-title">Seletores CSS</h1>
             <p class="seletores-descricao">Os seletores CSS são usados para aplicar estilos a elementos HTML. 
                 Existem vários tipos de seletores, cada um com uma função específica.
             </p>
-            <div class="seletores-flex-1">
-                <div>
+            <div class="seletores-flex">
+                <div class="flex-1">
                     <h3>1. Seletores Básicos</h3>
                     <ul>
                         <li>Seletores por Tipo (Tag):</li>
-                            <p>Seleciona todos os elementos de um tipo específico.</p>
-                            <h5>p { color: blue; }</h5>
+                        <p>Seleciona todos os elementos de um tipo específico.</p>
+                        <h5>p { color: blue; }</h5>
                         <li>Seletores por ID (#id):</li>
-                            <p>Seleciona um elemento com um ID específico.</p>
-                            <h5>#menu { background-color: gray; }</h5>
+                        <p>Seleciona um elemento com um ID específico.</p>
+                        <h5>#menu { background-color: gray; }</h5>
                         <li>Seletores por Classe (.class):</li>
-                            <p>Seleciona elementos com uma classe específica.</p>
-                            <h5>.destaque { font-weight: bold; }</h5>
+                        <p>Seleciona elementos com uma classe específica.</p>
+                        <h5>.destaque { font-weight: bold; }</h5>
                         <li>Seletor Universal (*):</li>
-                            <p>Seleciona todos os elementos da página.</p>
-                            <h5>* { margin: 0; padding: 0; }</h5>
+                        <p>Seleciona todos os elementos da página.</p>
+                        <h5>* { margin: 0; padding: 0; }</h5>
                     </ul>
                 </div>
-                <div>
+                <div class="flex-1">
                     <h3>2. Seletores Combinadores</h3>
-                    <ul class="li-1">
+                    <ul>
                         <li>Descendente (espaço):</li>
-                            <p>Seleciona elementos dentro de outro elemento.</p>
-                            <h5>div p { color: red; }</h5>
-                            <p>Todos os "p" dentro de "div" serão vermelhos.</p>
+                        <p>Seleciona elementos dentro de outro elemento.</p>
+                        <h5>div p { color: red; }</h5>
+                        <p>Todos os "p" dentro de "div" serão vermelhos.</p>
                         <li>Filho (>):</li>
-                            <p>Seleciona elementos que são filhos direto.</p>
-                            <h5>div > p { color: green; }</h5>
-                            <p>Apenas "p" que sejam filhos diretos de "div".</p>
+                        <p>Seleciona elementos que são filhos direto.</p>
+                        <h5>div > p { color: green; }</h5>
+                        <p>Apenas "p" que sejam filhos diretos de "div".</p>
                         <li>Irmão Adjacente (+):</li>
-                            <p>Seleciona um elemento que vem logo após outro.</p>
-                            <h5>h1 + p { color: orange; }</h5>
-                            <p>O primeiro "p" depois de um "h1" será laranja.</p>
+                        <p>Seleciona um elemento que vem logo após outro.</p>
+                        <h5>h1 + p { color: orange; }</h5>
+                        <p>O primeiro "p" depois de um "h1" será laranja.</p>
                         <li>Irmãos Gerais (~):</li>
-                            <p>Seleciona todos os elementos irmãos que vêm depois.</p>
-                            <h5>h1 ~ p { color: pink; }</h5>
-                            <p>Todos os "p" depois de um "h1" serão rosas.</p>
+                        <p>Seleciona todos os elementos irmãos que vêm depois.</p>
+                        <h5>h1 ~ p { color: pink; }</h5>
+                        <p>Todos os "p" depois de um "h1" serão rosas.</p>
                     </ul>
                 </div>
-            </div>
-
-            <div class="seletores-flex-2">
-                <div>
+                <div class="flex-1">
                     <h3>3. Seletores de Atributos</h3>
                     <ul class="li-2">
                         <li>Por existência:</li>
@@ -80,7 +77,7 @@
                             <p>Imagens que terminam com ".jpg".</p>
                     </ul>
                 </div>
-                <div>
+                <div class="flex-1">
                     <h3>4. Seletores Pseudo-classes</h3>
                     <ul class="li-3">
                         <li>Estado de um elemento:</li>
@@ -100,10 +97,7 @@
                             <p>Linhas pares da tabela.</p>
                     </ul>
                 </div>
-            </div>
-
-            <div class="seletores-flex-3">
-                <div>
+                <div class="flex-1">
                     <h3>5. Seletores Pseudo-elementos</h3>
                     <ul class="li-4">
                         <li>Antes e depois do conteúdo:</li>
@@ -118,6 +112,7 @@
                             <p>Primeira linha em cinza.</p>
                     </ul>
                 </div>
+                <div class="flex-1"></div>
             </div>
         </article>
 

@@ -26,10 +26,11 @@
             padding: 6px 80px 6px 80px;
         }
 /* ------------------------- SELETORES ----------------------------- */
+    /*main*/
         .seletores{
             margin: 0 40px 0 40px;
         }
-            .seletores h1{
+            .seletores-title{
                 display: flex;
                 justify-content: center;
                 margin: 0 80px 0 80px;
@@ -38,111 +39,38 @@
             }
             .seletores-descricao{
                 margin: 8px 0 8px 25px;
-                font-size: 18px;
+                font-size: 14px;
             }
-            .seletores-flex-1{
+            .seletores-flex{
                 display: flex;
-                justify-content: center;
-                gap: 5vw;
+                flex-wrap: wrap;
+                gap: 20px;
             }
-                .seletores-flex-1 div{
-                    width: 45vw;
+                .flex-1{
+                    flex: calc(30% - 10px);
                 }
-                    .seletores-flex-1 h3{
+                    .flex-1 h3{
                         display: flex;
                         justify-content: center;
-                        margin: 0 25px 5px 25px;
+                        margin: 4px 25px 4px 25px;
                         padding: 4px 20px 4px 20px;
                         background-color: var(--sub-title);
                         border-radius: 10px;
                     }
-                        .seletores-flex-1 ul li{
+                    /*.flex-1 ul*/
+                        .flex-1 ul li{
                             font-size: 16px;
                             font-weight: bold;
-                            margin-top: 10px;
+                            margin: 8px 0 8px 0;
                             list-style-type: none;
                         }
-                        .seletores-flex-1 ul p{
+                        .flex-1 ul p{
                             font-size: 14px;
-                            margin: 5px 0 0 15px;
+                            margin: 0 0 0 15px;
                         }
-                                .seletores-flex-1 .li-1 p:nth-child(4n){
-                                    font-size: 12px;
-                                    margin-left: 50px;
-                                }
-                        .seletores-flex-1 ul h5{
+                        .flex-1 ul h5{
                             font-size: 12px;
-                            margin: 5px 0 0 40px;
-                        }
-            .seletores-flex-2{
-                display: flex;
-                justify-content: center;
-                gap: 5vw;
-            }
-                .seletores-flex-2 div{
-                    width: 45vw;
-                }
-                    .seletores-flex-2 h3{
-                        display: flex;
-                        justify-content: center;
-                        margin: 5px 25px 5px 25px;
-                        padding: 4px 20px 4px 20px;
-                        background-color: var(--sub-title);
-                        border-radius: 10px;
-                    }
-                        .seletores-flex-2 ul li{
-                            font-size: 16px;
-                            font-weight: bold;
-                            margin-top: 10px;
-                            list-style-type: none;
-                        }
-                        .seletores-flex-2 ul p{
-                            font-size: 14px;
-                            margin: 5px 0 0 15px;
-                        }
-                                .seletores-flex-2 .li-2 p:nth-child(3n){
-                                    font-size: 12px;
-                                    margin-left: 36px;
-                                }
-                                .seletores-flex-2 .li-3 p{
-                                    font-size: 12px;
-                                    margin-left: 36px;
-                                }
-                        .seletores-flex-2 ul h5{
-                            font-size: 12px;
-                            margin: 5px 0 0 20px;
-                        }
-            .seletores-flex-3{
-                display: flex;
-            }
-                .seletores-flex-3 div{
-                    width: 44vw;
-                }
-                    .seletores-flex-3 h3{
-                        display: flex;
-                        justify-content: center;
-                        margin: 5px 25px 5px 25px;
-                        padding: 4px 20px 4px 20px;
-                        background-color: var(--sub-title);
-                        border-radius: 10px;
-                    }
-                        .seletores-flex-3 ul li{
-                            font-size: 16px;
-                            font-weight: bold;
-                            margin-top: 10px;
-                            list-style-type: none;
-                        }
-                        .seletores-flex-3 ul p{
-                            font-size: 14px;
-                            margin: 5px 0 0 15px;
-                        }
-                                .seletores-flex-3 .li-4 p{
-                                    font-size: 12px;
-                                    margin-left: 36px;
-                                }
-                        .seletores-flex-3 ul h5{
-                            font-size: 12px;
-                            margin: 5px 0 0 20px;
+                            margin: 5px 0 5px 40px;
                         }
 /* --------------- MARGIN, PADDING e BOX-SIZING ----------------- */
         .box-1{
