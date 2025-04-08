@@ -303,4 +303,18 @@
                                 .li-7 li{
                                     font-size: 12px;
                                 }
-/* -----------------------  ------------------------- */
+/* ----------------------- OBJECTS ------------------------- */
+        .box-3{
+            margin: 0 40px 0 40px;
+        }
+            .box-3 h1{
+                display: flex;
+                justify-content: center;
+                margin: 0px 60px 5px 60px;
+                background-color: var(--title-section);
+                border-radius: 10px;
+            }
+            .object-descricao{
+                margin: 8px 0 8px 40px;
+                font-size: 14px;
+            }
