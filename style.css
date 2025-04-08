@@ -318,3 +318,39 @@
                 margin: 8px 0 8px 40px;
                 font-size: 14px;
             }
+            .obj-felx{
+                display: flex;
+                gap: 25px;
+            }
+                .obj-felx p{
+                    font-size: 14px;
+                    margin: 0 0 0 15px;
+                }
+                    .obj{
+                        display: flex;
+                        justify-content: center;
+                        margin: 5px 25px 5px 0;
+                        padding: 4px 20px 4px 20px;
+                        background-color: var(--sub-title);
+                        border-radius: 10px;
+                        width: 20vw;
+                    }
+                        .objs{
+                            display: flex;
+                            justify-content: center;
+                            background-color: var(--title-mini);
+                            border-radius: 10px;
+                            margin: 8px 0 8px 20px;
+                            padding: 2px 0 2px 0;
+                            width: 18vw;
+                        }
+                            .li-8 li{
+                                padding: 0 0 6px 0;
+                                margin: 0 0 0 35px;
+                                font-size: 14px;
+                                list-style-type: none;
+                            }
+                            .li-8 h5{
+                                margin-top: 8px;
+                                padding: 0 0 0 50px;
+                            }
