@@ -2,7 +2,7 @@
     --title-article: firebrick;
     --title-section: coral;
     --sub-title: tomato;
-    --title-mini: indianred;
+    --title-mini: rgba(205, 92, 92, 0.7); /* INDIAN RED */
 }
     *{
         margin: 0;
