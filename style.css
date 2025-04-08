@@ -185,10 +185,10 @@
                                 font-size: 14px;
                             }
 /* ----------------------- CORES ------------------------- */
-        .box-2{
+        .cores{
             margin: 0 40px 0 40px;
         }
-            .box-2 h1{
+            .cores h1{
                 display: flex;
                 justify-content: center;
                 margin: 15px 80px 5px 80px;
@@ -199,14 +199,14 @@
                 margin: 8px 0 8px 40px;
                 font-size: 14px;
             }
-            .box-2 ul{
+            .cores ul{
                 display: flex;
             }
-                .box-2 ul li{
+                .cores ul li{
                     list-style-type: none;
                     width: 30vw;
                 }
-                    .box-2 ul li h4{
+                    .cores ul li h4{
                         display: flex;
                         justify-content: center;
                         background-color: var(--title-mini);
@@ -214,11 +214,11 @@
                         padding: 2px 0 2px 0;
                         width: 18vw;
                     }
-                    .box-2 ul li p{
+                    .cores ul li p{
                         font-size: 14px;
                         padding: 4px 0 0 15px;
                     }
-                    .box-2 ul li h5{
+                    .cores ul li h5{
                         padding: 4px 0 6px 25px;
                     }
                             .li-7{
