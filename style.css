@@ -59,9 +59,13 @@
                     }
                     /*.flex-1 ul*/
                         .flex-1 ul li{
+                            background-color: var(--title-mini);
+                            border-radius: 10px;
                             font-size: 16px;
                             font-weight: bold;
                             margin: 8px 0 8px 0;
+                            padding: 2px 0 2px 10px;
+                            width: 18vw;
                             list-style-type: none;
                         }
                         .flex-1 ul p{
@@ -70,7 +74,7 @@
                         }
                         .flex-1 ul h5{
                             font-size: 12px;
-                            margin: 5px 0 5px 40px;
+                            margin: 5px 0 5px 30px;
                         }
 /* --------------- MARGIN, PADDING e BOX-SIZING ----------------- */
         .box-1{
