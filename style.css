@@ -221,20 +221,20 @@
                     .cores ul li h5{
                         padding: 4px 0 6px 25px;
                     }
-                            .li-7{
+                            .li-4{
                                 display: flex;
                                 flex-direction: column;
                                 padding: 6px 0 6px 40px;
                                 list-style-type: square;
                             }
-                                .li-7 li{
+                                .li-4 li{
                                     font-size: 12px;
                                 }
 /* ----------------------- OBJECTS ------------------------- */
-        .box-3{
+        .object{
             margin: 0 40px 0 40px;
         }
-            .box-3 h1{
+            .object h1{
                 display: flex;
                 justify-content: center;
                 margin: 0px 60px 5px 60px;
@@ -271,18 +271,18 @@
                             padding: 2px 0 2px 0;
                             width: 18vw;
                         }
-                            .li-8 li{
+                            .li-3 li{
                                 padding: 0 0 6px 0;
                                 margin: 0 0 0 35px;
                                 font-size: 14px;
                                 list-style-type: none;
                             }
-                            .li-8 h5{
+                            .li-3 h5{
                                 margin-top: 8px;
                                 padding: 0 0 0 50px;
                             }
 /* ----------------------- BACKGROUNDS ------------------------- */
-        .box-4{
+        .background{
             margin: 0 40px 0 40px;
         }
             #container{
@@ -293,14 +293,14 @@
                 .container{
                     flex: calc(50% - 20px);
                 }
-            .box-4 h1{
+            .background h1{
                 display: flex;
                 justify-content: center;
                 margin: 0px 60px 5px 60px;
                 background-color: var(--title-section);
                 border-radius: 10px;
             }
-                .box-4 h3{
+                .background h3{
                     display: flex;
                     justify-content: center;
                     margin: 5px 25px 5px 0;
@@ -309,7 +309,7 @@
                     border-radius: 10px;
                     width: 20vw;
                 }
-                .box-4 p{
+                .background p{
                     font-size: 14px;
                     padding: 5px 15px 5px 15px;
                 }
@@ -333,3 +333,82 @@
                         .li-9 h5{
                             margin: 0 0 0 15px;
                         }
+                        .li-10 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-10 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-10 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-11 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-11 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-11 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-12 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-12 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-12 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-13 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-13 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-13 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-14 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-14 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-14 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-15 ul li{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 3px 0 3px 0;
+                        }
+                        .li-15 ul h5{
+                            font-size: 12px;
+                            margin: 0 0 0 15px;
+                        }
+                        .li-15 ul p{
+                            font-size: 14px;
+                            margin: 0 0 0 15px;
+                        }
+/* -----------------------  ------------------------- */

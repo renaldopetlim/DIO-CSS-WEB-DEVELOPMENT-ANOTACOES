@@ -215,7 +215,7 @@
                             <p>Ocupa 30% da altura do elemento pai.</p>
                             <li>Exemplo com vh (Viewport Height - Altura da Tela):</li>
                             <h5>height: 60vw;</h5>
-                            w<p>60% da altura da janela do navegador.</p>
+                            <p>60% da altura da janela do navegador.</p>
                         </ul>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                 <li>
                     <h4>hsl:</h4>
                     <p>Define cores com três valores:<br>
-                        <ul class="li-7">
+                        <ul class="li-4">
                             <li>Matiz (hue, de 0 a 360°),</li>
                             <li>Saturação (saturation, de 0% a 100%)</li>
                             <li>Luminosidade (lightness, de 0% a 100%)</li>
@@ -300,7 +300,7 @@
             </ul>
         </article>
 
-        <article class="box-3">
+        <article class="object">
             <h1>Object-Fit e Object-Position</h1>
             <p class="object-descricao">As propriedades object-fit e object-position são usadas para controlar como 
                 uma mídia (como imagens e vídeos) se ajusta dentro de um elemento contêiner.
@@ -313,7 +313,7 @@
                     </p>
                     <div>
                         <h4 class="objs">Valores de object-fit:</h4>
-                        <ul class="li-8">
+                        <ul class="li-3">
                             <li><b>fill (padrão): </b>
                                 A mídia será redimensionada para preencher todo o contêiner, 
                                 podendo distorcer a imagem.
@@ -342,7 +342,7 @@
                     </p>
                     <div>
                         <h4 class="objs">Valores de object-fit:</h4>
-                        <ul class="li-8">
+                        <ul class="li-3">
                             <li><b>x: </b>
                                 Define o deslocamento horizontal (exemplo: left, center, right, 50%, 10px).
                             </li>
@@ -356,7 +356,7 @@
             </div>
         </article>
 
-        <article class="box-4">
+        <article class="background">
             <h1>Fundo dos Elementos (Backgrounds)</h1>
             <div id="container">
                 <div class="container">
@@ -406,25 +406,25 @@
                     <h3>background-image</h3>
                     <p>A propriedade background-image em CSS define uma imagem de fundo para um elemento. 
                         Pode ser usada para adicionar imagens estáticas, gradientes e até múltiplas imagens.</p>
-                    <div>
+                    <div class="li-10">
                         <ul>
                             <li>Imagem de fundo simples</li>
-                                <h5>background-image: url('imagem.jpg');</h5>
-                                <p>Usa uma imagem como fundo. O caminho pode ser relativo ou absoluto.</p>
+                            <h5>background-image: url('imagem.jpg');</h5>
+                            <p>Usa uma imagem como fundo. O caminho pode ser relativo ou absoluto.</p>
                             <li>Gradiente linear</li>
-                                <h5>background-image: linear-gradient(to right, red, blue);</h5>
-                                <p>Cria uma transição suave de cores da esquerda para a direita.</p>
+                            <h5>background-image: linear-gradient(to right, red, blue);</h5>
+                            <p>Cria uma transição suave de cores da esquerda para a direita.</p>
                             <li>Gradiente radial</li>
-                                <h5>background-image: radial-gradient(circle, yellow, green);</h5>
-                                <p>Forma um gradiente circular do amarelo para o verde.</p>
+                            <h5>background-image: radial-gradient(circle, yellow, green);</h5>
+                            <p>Forma um gradiente circular do amarelo para o verde.</p>
                             <li>Múltiplas imagens</li>
-                                <h5>background-image: url('padrao.png'), linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);</h5>
-                                <p>Sobrepõe uma imagem e um gradiente.</p>
+                            <h5>background-image: url('padrao.png'), linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);</h5>
+                            <p>Sobrepõe uma imagem e um gradiente.</p>
                             <li>Padrão repetitivo</li>
-                                <h5>
-                                    background-image: url('texture.png');<br>
-                                    background-repeat: repeat;
-                                </h5>
+                            <h5>
+                                background-image: url('texture.png');<br>
+                                background-repeat: repeat;
+                            </h5>
                             <p>A imagem será repetida para preencher o elemento.</p>
                         </ul>
                     </div>
@@ -435,52 +435,53 @@
                         de fundo. Ele pode ajustar a imagem para cobrir completamente o elemento, se ajustar 
                         proporcionalmente ou seguir um tamanho fixo.
                     </p>
-                    <div>
+                    <div class="li-11">
                         <ul>
                             <li>auto (Padrão)</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: auto;
-                                </h5>
-                                <p>Mantém o tamanho original da imagem.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: auto;
+                            </h5>
+                            <p>Mantém o tamanho original da imagem.</p>
                             <li>cover</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: cover;
-                                </h5>
-                                <p>Redimensiona a imagem para cobrir todo o elemento, mantendo a proporção e 
-                                    cortando excessos se necessário.
-                                </p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: cover;
+                            </h5>
+                            <p>Redimensiona a imagem para cobrir todo o elemento, mantendo a proporção e 
+                                cortando excessos se necessário.
+                            </p>
                             <li>contain</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: contain;
-                                </h5>
-                                <p>Redimensiona a imagem para caber completamente no elemento sem cortes, 
-                                    podendo deixar espaços vazios.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: contain;
+                            </h5>
+                            <p>Redimensiona a imagem para caber completamente no elemento sem cortes, 
+                                podendo deixar espaços vazios.
+                            </p>
                             <li>Tamanho específico (px, %, em, etc.)</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: 200px 100px;
-                                </h5>
-                                <p>Define largura e altura da imagem manualmente.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: 200px 100px;
+                            </h5>
+                            <p>Define largura e altura da imagem manualmente.</p>
                             <li>Largura fixa, altura automática</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: 300px auto;
-                                </h5>
-                                <p>Apenas a largura é definida, e a altura ajusta automaticamente mantendo a proporção.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: 300px auto;
+                            </h5>
+                            <p>Apenas a largura é definida, e a altura ajusta automaticamente mantendo a proporção.</p>
                             <li>Valores percentuais</li>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-size: 50% 50%;
-                                </h5>
-                                <p>Define a largura e altura como porcentagem do elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-size: 50% 50%;
+                            </h5>
+                            <p>Define a largura e altura como porcentagem do elemento.</p>
                             <li>Múltiplos valores (para múltiplos fundos)</li>
-                                <h5>background-image: url('imagem1.jpg'), url('imagem2.jpg');<br>
-                                    background-size: 50% 50%, contain;
-                                </h5>
-                                <p>Se houver mais de uma imagem de fundo, cada uma pode ter um tamanho diferente.</p>
+                            <h5>background-image: url('imagem1.jpg'), url('imagem2.jpg');<br>
+                                background-size: 50% 50%, contain;
+                            </h5>
+                            <p>Se houver mais de uma imagem de fundo, cada uma pode ter um tamanho diferente.</p>
                         </ul>
                     </div>
                     <p>A propriedade background-size é essencial para controlar como as imagens de fundo aparecem 
@@ -493,50 +494,50 @@
                         dentro de um elemento. Pode ser usada para repetir a imagem horizontalmente, 
                         verticalmente ou não repetir.
                     </p>
-                    <div>
+                    <div class="li-12">
                         <ul>
                             <li>repeat (Padrão)</li>
-                                <p>A imagem se repete tanto na horizontal quanto na vertical, preenchendo todo o elemento.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: repeat;
-                                </h5>
-                                <p>A imagem será repetida em ambas as direções até preencher o espaço.</p>
+                            <p>A imagem se repete tanto na horizontal quanto na vertical, preenchendo todo o elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: repeat;
+                            </h5>
+                            <p>A imagem será repetida em ambas as direções até preencher o espaço.</p>
                             <li>no-repeat</li>
-                                <p>A imagem aparece apenas uma vez e não se repete.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: no-repeat;
-                                </h5>
-                                <p>A imagem será exibida apenas uma vez, sem repetições.</p>
+                            <p>A imagem aparece apenas uma vez e não se repete.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: no-repeat;
+                            </h5>
+                            <p>A imagem será exibida apenas uma vez, sem repetições.</p>
                             <li>repeat-x</li>
-                                <p>A imagem se repete apenas na direção horizontal (eixo X).</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: repeat-x;
-                                </h5>
-                                <p>A imagem será repetida horizontalmente, mas não verticalmente.</p>
+                            <p>A imagem se repete apenas na direção horizontal (eixo X).</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: repeat-x;
+                            </h5>
+                            <p>A imagem será repetida horizontalmente, mas não verticalmente.</p>
                             <li>repeat-y</li>
-                                <p>A imagem se repete apenas na direção vertical (eixo Y).</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: repeat-y;
-                                </h5>
-                                <p>A imagem será repetida verticalmente, mas não horizontalmente.</p>
+                            <p>A imagem se repete apenas na direção vertical (eixo Y).</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: repeat-y;
+                            </h5>
+                            <p>A imagem será repetida verticalmente, mas não horizontalmente.</p>
                             <li>space</li>
-                                <p>As imagens se repetem sem cortar, e o espaço restante é distribuído entre elas.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: space;
-                                </h5>
-                                <p>A imagem será repetida, mas com espaços iguais entre elas.</p>
+                            <p>As imagens se repetem sem cortar, e o espaço restante é distribuído entre elas.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: space;
+                            </h5>
+                            <p>A imagem será repetida, mas com espaços iguais entre elas.</p>
                             <li>round</li>
-                                <p>Ajusta a repetição da imagem para que ela se encaixe perfeitamente no elemento.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-repeat: round;
-                                </h5>
-                                <p>A imagem pode ser redimensionada ligeiramente para se ajustar sem deixar espaços.</p>
+                            <p>Ajusta a repetição da imagem para que ela se encaixe perfeitamente no elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-repeat: round;
+                            </h5>
+                            <p>A imagem pode ser redimensionada ligeiramente para se ajustar sem deixar espaços.</p>
                         </ul>
                     </div>
                     <p>A propriedade background-repeat é muito útil para definir como as imagens de fundo são 
@@ -549,50 +550,50 @@
                         dentro do elemento. Pode ser especificada com palavras-chave, valores percentuais ou 
                         medidas absolutas.
                     </p>
-                    <div>
+                    <div class="li-13">
                         <ul>
                             <li>Palavras-chave</li>
-                                <p>Permitem posicionar a imagem em relação ao elemento.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-position: center;
-                                </h5>
-                                <p>A imagem será centralizada no elemento.</p>
-                                <h4>Outras opções de palavras-chave:</h4>
-                                <ul>
-                                    <li>background-position: top left; --- No canto superior esquerdo.</li>
-                                    <li>background-position: top right; --- No canto superior direito.</li>
-                                    <li>background-position: bottom right; --- No canto inferior direito.</li>
-                                    <li>background-position: bottom left; --- No canto inferior esquerdo.</li>
-                                </ul>
+                            <p>Permitem posicionar a imagem em relação ao elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-position: center;
+                            </h5>
+                            <p>A imagem será centralizada no elemento.</p>
+                            <h4>Outras opções de palavras-chave:</h4>
+                            <ul>
+                                <li>background-position: top left; --- No canto superior esquerdo.</li>
+                                <li>background-position: top right; --- No canto superior direito.</li>
+                                <li>background-position: bottom right; --- No canto inferior direito.</li>
+                                <li>background-position: bottom left; --- No canto inferior esquerdo.</li>
+                            </ul>
                             <li>Valores percentuais</li>
-                                <p>Define a posição da imagem em relação ao tamanho do elemento.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-position: 50% 50%;
-                                </h5>
-                                <p>A imagem ficará exatamente no centro (50% da largura e 50% da altura).</p>
+                            <p>Define a posição da imagem em relação ao tamanho do elemento.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-position: 50% 50%;
+                            </h5>
+                            <p>A imagem ficará exatamente no centro (50% da largura e 50% da altura).</p>
                             <li>Valores em pixels ou outras unidades (px, em, rem, etc.)</li>
-                                <p>Define uma posição exata da imagem.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-position: 30px 50px;
-                                </h5>
-                                <p>A imagem será posicionada a 30 pixels da esquerda e 50 pixels do topo.</p>
+                            <p>Define uma posição exata da imagem.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-position: 30px 50px;
+                            </h5>
+                            <p>A imagem será posicionada a 30 pixels da esquerda e 50 pixels do topo.</p>
                             <li>Combinando valores diferentes</li>
-                                <p>Podemos misturar unidades diferentes.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-position: 10% 50px;
-                                </h5>
-                                <p>A imagem ficará 10% da largura e 50px da altura do topo do elemento.</p>
+                            <p>Podemos misturar unidades diferentes.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-position: 10% 50px;
+                            </h5>
+                            <p>A imagem ficará 10% da largura e 50px da altura do topo do elemento.</p>
                             <li>background-position com múltiplas imagens</li>
-                                <p>Quando há várias imagens de fundo, cada uma pode ter sua própria posição.</p>
-                                <h5>
-                                    background-image: url('imagem1.jpg'), url('imagem2.jpg');<br>
-                                    background-position: top left, bottom right;
-                                </h5>
-                                <p>A primeira imagem ficará no canto superior esquerdo, e a segunda no canto inferior direito.</p>
+                            <p>Quando há várias imagens de fundo, cada uma pode ter sua própria posição.</p>
+                            <h5>
+                                background-image: url('imagem1.jpg'), url('imagem2.jpg');<br>
+                                background-position: top left, bottom right;
+                            </h5>
+                            <p>A primeira imagem ficará no canto superior esquerdo, e a segunda no canto inferior direito.</p>
                         </ul>
                     </div>
                     <p>A propriedade background-position é essencial para ajustar a posição da imagem de fundo, 
@@ -605,35 +606,35 @@
                         A propriedade background-attachment no CSS define se a imagem de fundo se move junto 
                         com o conteúdo da página ou se permanece fixa na tela.
                     </p>
-                    <div>
+                    <div class="li-14">
                         <ul>
                             <li>scroll (Padrão)</li>
-                                <p>A imagem de fundo rola junto com o conteúdo da página.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-attachment: scroll;
-                                </h5>
-                                <p>Quando o usuário rolar a página, a imagem de fundo se moverá junto com o conteúdo.</p>
+                            <p>A imagem de fundo rola junto com o conteúdo da página.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-attachment: scroll;
+                            </h5>
+                            <p>Quando o usuário rolar a página, a imagem de fundo se moverá junto com o conteúdo.</p>
                             <li>fixed</li>
-                                <p>A imagem de fundo fica fixa na tela, enquanto o conteúdo da página se move sobre ela.</p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-attachment: fixed;
-                                </h5>
-                                <p>A imagem permanecerá fixa no fundo, criando um efeito de parallax.</p>
+                            <p>A imagem de fundo fica fixa na tela, enquanto o conteúdo da página se move sobre ela.</p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-attachment: fixed;
+                            </h5>
+                            <p>A imagem permanecerá fixa no fundo, criando um efeito de parallax.</p>
                             <li>local</li>
-                                <p>
-                                    A imagem de fundo se move apenas dentro do elemento, 
-                                    acompanhando o deslocamento do conteúdo quando houver rolagem interna.
-                                </p>
-                                <h5>
-                                    background-image: url('imagem.jpg');<br>
-                                    background-attachment: local;<br>
-                                    overflow: auto; --- Para que a rolagem interna funcione.
-                                </h5>
-                                <p>Se o div tiver um overflow: auto; ou scroll, a imagem se moverá 
-                                    junto com o conteúdo dentro desse div, mas não com a página inteira.
-                                </p>
+                            <p>
+                                A imagem de fundo se move apenas dentro do elemento, 
+                                acompanhando o deslocamento do conteúdo quando houver rolagem interna.
+                            </p>
+                            <h5>
+                                background-image: url('imagem.jpg');<br>
+                                background-attachment: local;<br>
+                                overflow: auto; --- Para que a rolagem interna funcione.
+                            </h5>
+                            <p>Se o div tiver um overflow: auto; ou scroll, a imagem se moverá 
+                                junto com o conteúdo dentro desse div, mas não com a página inteira.
+                            </p>
                         </ul>
                     </div>
                     <p>A propriedade background-attachment é útil para criar efeitos visuais interessantes, 
@@ -642,11 +643,11 @@
                 </div>
                 <div class="container">
                     <h3>background-origin e background-clip</h3>
-                    <div>
+                    <div class="li-15">
                         <p>A propriedade background-origin no CSS define a origem da imagem de fundo, 
                             ou seja, onde o plano de fundo começa dentro do elemento.
                         </p>
-                        <h5>background-origin: valor;</h5>
+                        <h5 style="padding: 0 0 0 40px;">background-origin: valor;</h5>
                         <p>Para que essa propriedade tenha efeito, a propriedade background-clip deve estar 
                             configurada corretamente e o background não pode estar definido como 
                             background-size: cover; ou contain;.
@@ -683,12 +684,12 @@
                             dentro do elemento, permitindo maior controle sobre o layout e aparência do fundo.
                         </p>
                     </div>
-                    <div>
+                    <div class="li-15">
                         <p>A propriedade background-clip no CSS define até onde o fundo (background) do elemento 
                             se estende, ou seja, se ele ficará visível apenas na área do conteúdo, no padding 
                             ou na borda.
                         </p>
-                        <h5>background-clip: valor;</h5>
+                        <h5 style="padding: 0 0 0 40px;">background-clip: valor;</h5>
                         <p>Essa propriedade afeta apenas o fundo do elemento (background), 
                             não afeta a borda nem o conteúdo.
                         </p>
@@ -729,6 +730,8 @@
                 </div>
             </div>
         </article>
+
+        
     </main>
 </body>
 </html>
