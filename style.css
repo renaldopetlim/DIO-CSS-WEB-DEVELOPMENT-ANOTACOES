@@ -354,3 +354,14 @@
                                 margin-top: 8px;
                                 padding: 0 0 0 50px;
                             }
+/* ----------------------- BACKGROUNDS ------------------------- */
+        .box-4{
+            margin: 0 40px 0 40px;
+        }
+            .box-4 h1{
+                display: flex;
+                justify-content: center;
+                margin: 0px 60px 5px 60px;
+                background-color: var(--title-section);
+                border-radius: 10px;
+            }
