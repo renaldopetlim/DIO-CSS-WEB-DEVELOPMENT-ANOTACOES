@@ -1,7 +1,7 @@
 :root{
     --title-article: firebrick;
-    --title-section: coral;
-    --sub-title: tomato;
+    --title-section: coral; /* TITLES H1 */
+    --sub-title: tomato; /* SUB-TITLES H3 */
     --title-mini: rgba(205, 92, 92, 0.7); /* INDIAN RED */
 }
     *{
