@@ -793,11 +793,11 @@
                     <h4>Exemplo Prático:</h4>
                     <h5>p { font-family: "Arial", "Helvetica", sans-serif; }</h5>
                     <h4>Tipos Genéricos:</h4>
-                    <p>serif: Com serifa (ex: Times New Roman)</p>
-                    <p>sans-serif: Sem serifa (ex: Arial, Helvetica)</p>
-                    <p>monospace: Largura fixa (ex: Courier New)</p>
-                    <p>cursive: Estilo manuscrito</p>
-                    <p>fantasy: Fontes decorativas</p>
+                    <p><b>serif:</b> Com serifa (ex: Times New Roman)</p>
+                    <p><b>sans-serif:</b> Sem serifa (ex: Arial, Helvetica)</p>
+                    <p><b>monospace:</b> Largura fixa (ex: Courier New)</p>
+                    <p><b>cursive:</b> Estilo manuscrito</p>
+                    <p><b>fantasy:</b> Fontes decorativas</p>
                 </div>
                 <div>
                     <h3>Font Size</h3>
@@ -822,23 +822,25 @@
                     </p>
                     <h5>font-weight: value;</h5>
                     <h4>Valores Possíveis:</h4>
-                    <p>
-                        font-weight: normal; - Peso padrão (equivale a 400).<br>
-                        font-weight: bold; - Negrito (equivale a 700).<br>
-                        font-weight: lighter; - Mais leve que o pai.<br>
-                        font-weight: bolder; - Mais pesado que o pai.
-                    </p>
-                    <p>
-                        font-weight: 100; - Extra fino.<br>
-                        font-weight: 200;<br>
-                        font-weight: 300;<br>
-                        font-weight: 400; - Normal.<br>
-                        font-weight: 500;<br>
-                        font-weight: 600;<br>
-                        font-weight: 700; - Bold.<br>
-                        font-weight: 800;<br>
-                        font-weight: 900; - Extra bold.
-                    </p>
+                    <div class="flex-2">
+                        <p>
+                            <b>font-weight:</b> 100; - Extra fino.<br>
+                            <b>font-weight:</b> 200;<br>
+                            <b>font-weight:</b> 300;<br>
+                            <b>font-weight:</b> 400; - Normal.<br>
+                            <b>font-weight:</b> 500;<br>
+                            <b>font-weight:</b> 600;<br>
+                            <b>font-weight:</b> 700; - Bold.<br>
+                            <b>font-weight:</b> 800;<br>
+                            <b>font-weight:</b> 900; - Extra bold.
+                        </p>
+                        <p>
+                            <b>font-weight:</b> normal; - Peso padrão (equivale a 400).<br>
+                            <b>font-weight:</b> bold; - Negrito (equivale a 700).<br>
+                            <b>font-weight:</b> lighter; - Mais leve que o pai.<br>
+                            <b>font-weight:</b> bolder; - Mais pesado que o pai.
+                        </p>
+                    </div>
                 </div>
                 <div>
                     <h3>Font Style</h3>
@@ -849,36 +851,107 @@
                     <h5>font-style: value;</h5>
                     <h4>Valores Possíveis:</h4>
                     <p>
-                        normal - Estilo padrão, sem itálico.<br>
-                        italic - Texto em itálico (se a fonte tiver essa variação).<br>
-                        oblique - Texto inclinado artificialmente, como itálico "simulado".
+                        <b>normal</b> - Estilo padrão, sem itálico.<br>
+                        <b>italic</b> - Texto em itálico (se a fonte tiver essa variação).<br>
+                        <b>oblique</b> - Texto inclinado artificialmente, como itálico "simulado".
                     </p>
                 </div>
             </div>
         </article>
         
+        <article class="texto">
+            <h1>Textos</h1>
+            <div id="texto">
+                <div>
+                    <h3>Text Transform</h3>
+                    <p>
+                        A propriedade text-transform em CSS define como o texto será 
+                        capitalizado ou transformado em maiúsculas/minúsculas, independentemente 
+                        de como ele foi digitado no HTML.
+                    </p>
+                    <h5>text-transform: value;</h5>
+                    <h4>Valores Possíveis:</h4>
+                    <p>
+                        <b>none:</b> Nenhuma transformação (padrão).<br>
+                        <b>uppercase:</b> Transforma todo o texto em MAIÚSCULAS.<br>
+                        <b>lowercase:</b> Transforma todo o texto em minúsculas.<br>
+                        <b>capitalize:</b> Coloca a primeira letra de cada palavra em maiúscula.
+                    </p>
+                </div>
+                <div>
+                    <h3>Text-Align</h3>
+                    <p>
+                        O text-align em CSS é uma propriedade usada para definir o 
+                        alinhamento horizontal do conteúdo de texto dentro de um elemento.
+                    </p>
+                    <h5>text-align: value;</h5>
+                    <h4>Valores Possíveis:</h4>
+                    <p>
+                        <b>left:</b> Alinha o texto à esquerda (padrão para idiomas como o português e inglês).<br>
+                        <b>right:</b> Alinha o texto à direita.<br>
+                        <b>center:</b> Centraliza o texto.<br>
+                        <b>justify:</b> Justifica o texto (ajusta os espaçamentos para que o texto se alinhe dos dois lados).
+                    </p>
+                </div>
+                <div>
+                    <h3>Text Decoration</h3>
+                    <p>
+                        A propriedade text-decoration em CSS é usada para adicionar ou remover 
+                        "enfeites" (decorações) ao texto, como sublinhado, linha sobre o texto 
+                        ou linha cortando o meio.
+                    </p>
+                    <h5>text-decoration: value;</h5>
+                    <h4>Valores Possíveis:</h4>
+                    <p>
+                        <b>none:</b> Remove qualquer decoração (ex: tirar o sublinhado de links).<br>
+                        <b>underline:</b> Sublinha o texto.<br>
+                        <b>overline:</b> Coloca uma linha acima do texto.<br>
+                        <b>line-through:</b> Coloca uma linha cortando o meio do texto (tachado).<br>
+                        <b>underline overline:</b> Combina decorações (ex: linha em cima e embaixo).
+                    </p>
+                </div>
+                <div>
+                    <h3>Letter e Word Spacing</h3>
+                    <p>
+                        Essas duas propriedades são usadas para controlar o espaçamento entre letras 
+                        e entre palavras no texto. Ambas as propriedades aceitam valores como: px (pixels)
+                        em (relativo ao tamanho da fonte).
+                    </p>
+                    <h5>
+                        letter-spacing: value;<br>
+                        word-spacing: value;
+                    </h5>
+                </div>
+                <div>
+                    <h3>White Space</h3>
+                    <p>
+                        A propriedade white-space em CSS controla como os espaços em branco (espaços, 
+                        quebras de linha, tabulações) são tratados dentro de um elemento de texto.
+                    </p>
+                    <h5>white-space: value;</h5>
+                    <h4>Valores Possíveis:</h4>
+                    <p>
+                        <b>normal:</b> Espaços extras são ignorados, e o texto quebra automaticamente (padrão).<br>
+                        <b>nowrap:</b> Impede a quebra de linha automática; o texto fica em uma linha só.<br>
+                        <b>pre:</b> Mantém todos os espaços e quebras de linha exatamente como no HTML.<br>
+                        <b>pre-wrap:</b> Mantém os espaços e quebras de linha, mas permite quebra automática se precisar.<br>
+                        <b>pre-line:</b> Remove espaços extras, mas respeita quebras de linha.
+                    </p>
+                </div>
+                <div></div>
+            </div>
+        </article>
 
+        <article>
+            <h1>Sombras</h1>
+            <div>
+                <h3>Box Shadow</h3>
+                <p>
+                    
+                </p>
+            </div>
+        </article>
 
-
-
-
-
-        <div>
-            <h3>Text Transform</h3>
-            <p>
-                A propriedade text-transform em CSS define como o texto será 
-                capitalizado ou transformado em maiúsculas/minúsculas, independentemente 
-                de como ele foi digitado no HTML.
-            </p>
-            <h5>text-transform: value;</h5>
-            <h4>Valores Possíveis:</h4>
-            <p>
-                none - Nenhuma transformação (padrão).
-                uppercase - Transforma todo o texto em MAIÚSCULAS.
-                lowercase - Transforma todo o texto em minúsculas.
-                capitalize - Coloca a primeira letra de cada palavra em maiúscula.
-            </p>
-        </div>
     </main>
 </body>
 </html>
