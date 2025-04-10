@@ -967,7 +967,9 @@
                     <h3>Drop Shadow</h3>
                     <p>
                         A propriedade drop-shadow em CSS é usada dentro da função filter e serve para aplicar 
-                        sombras semelhantes ao box-shadow, mas com algumas diferenças importantes:<br>
+                        sombras semelhantes ao box-shadow, mas com algumas diferenças importantes:
+                    </p>
+                    <p>
                         Drop-shadow aplica uma sombra a elementos gráficos como imagens, SVGs ou elementos 
                         com partes transparentes. A sombra respeita o formato real do elemento (inclusive 
                         transparência), diferente do box-shadow, que sempre segue a caixa retangular do 
@@ -984,7 +986,78 @@
                     <h5>text-shadow: offset-x offset-y blur-radius color;</h5>
                 </div>
             </div>
-            
+        </article>
+
+        <article class="unidades">
+            <h1>Unidades de Medidas</h1>
+            <div id="unidades">
+                <div>
+                    <h3>Unidades de Medidas Absolutas</h3>
+                    <p>
+                        As unidades absolutas no CSS têm valores fixos, ou seja, não se adaptam ao tamanho 
+                        da tela, nem ao elemento pai. São medidas exatas e geralmente usadas para impressão 
+                        ou quando se precisa de controle rígido sobre o layout.
+                    </p>
+                    <ul class="li-16">
+                        <li>px - Pixel</li>
+                        <p>1/96 de 1 polegada (em telas)</p>
+                        <li>cm - Centímetro</li>
+                        <p>1cm = 37.8px</p>
+                        <li>mm - Milímetro</li>
+                        <p>1mm = 3.78px</p>
+                        <li>in - Polegada</li>
+                        <p>1in = 2.54cm = 96px</p>
+                        <li>pt - Ponto tipográfico</li>
+                        <p>1pt = 1/72in = 1.33px</p>
+                        <li>pc - Paica (tipografia)</li>
+                        <p>1pc = 12pt = 16px</p>
+                    </ul>
+                    <h6>Importante:</h6>
+                    <ul class="li-17">
+                        <li><b>px</b> é a mais comum e amplamente usada no design para web.<br></li>
+                        <li>
+                            Em telas, os navegadores adaptam algumas unidades absolutas para funcionar 
+                            melhor, mas ainda assim, elas não respondem ao tamanho da tela, como as 
+                            unidades relativas.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Unidades de Medidas Relativas</h3>
+                    <p>
+                        As unidades relativas se adaptam ao contexto do elemento — como o tamanho da 
+                        fonte, o tamanho da tela (viewport) ou o tamanho do elemento pai. São ideais 
+                        para layouts responsivos e acessíveis.
+                    </p>
+                    <div>
+                        <div>
+                            <h4>Relativas ao tamanho da fonte:</h4>
+                            <p>
+                                <b>em</b>	Tamanho da fonte do elemento pai	font-size: 2em;	Se o pai tiver 16px, 2em = 32px<br>
+                                <b>rem</b>	Tamanho da fonte do elemento (html) (root)	margin: 1rem;	Padrão: 1rem = 16px<br>
+                                <b>%</b>	Proporção em relação ao elemento pai	width: 50%;	Muito usada para larguras e alturas<br>
+                                <b>ex</b>	Altura do caractere “x” da fonte atual	pouco usada	Varia muito entre fontes<br>
+                                <b>ch</b>	Largura do dígito “0” da fonte atual	width: 60ch;	Bom para caixas de texto
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Relativas à Viewport (área visível da tela):</h4>
+                            <p>
+                                <b>vw</b>	1% da largura da viewport	width: 100vw;	Tela cheia na horizontal<br>
+                                <b>vh</b>	1% da altura da viewport	height: 100vh;	Tela cheia na vertical<br>
+                                <b>vmin</b>	1% do menor valor entre vw e vh	font-size: 5vmin;	Design fluido e proporcional<br>
+                                <b>vmax</b>	1% do maior valor entre vw e vh	font-size: 5vmax;	Idem acima, mas baseado no maior
+                            </p>
+                            <h6>Vantagens das Unidades Relativas:</h6>
+                            <p>
+                                Permitem criar layouts responsivos e adaptáveis.<br>
+                                Aumentam a acessibilidade — o layout respeita o tamanho da fonte definido pelo usuário.<br>
+                                Mais flexibilidade para ajustar elementos automaticamente em diferentes telas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
 
     </main>

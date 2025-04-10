@@ -606,3 +606,69 @@
                     padding: 2px 0 2px 0;
                     width: 18vw; 
                 }
+/* ----------------------- UNIDADES ------------------------- */
+        .unidades{
+            margin: 0 40px 0 40px;
+        }
+            .unidades h1{
+                display: flex;
+                justify-content: center;
+                margin: 0px 60px 5px 60px;
+                background-color: var(--title-section);
+                border-radius: 10px;
+            }
+            #unidades{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+                #unidades div{
+                    flex: calc(50% - 20px);
+                }
+                .unidades h3{
+                    display: flex;
+                    justify-content: center;
+                    margin: 5px 25px 5px 0;
+                    padding: 4px 20px 4px 20px;
+                    background-color: var(--sub-title);
+                    border-radius: 10px;
+                    width: 20vw;
+                }
+                .unidades p{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    margin: 0 0 0 25px;
+                }
+                .unidades h5{
+                    margin: 6px 0 6px 40px;
+                }
+                .unidades h4{
+                    display: flex;
+                    justify-content: center;
+                    background-color: var(--title-mini);
+                    border-radius: 10px;
+                    margin: 6px 0 6px 0;
+                    padding: 2px 0 2px 0;
+                    width: 18vw; 
+                }
+                .unidades h6{
+                    font-size: 16px;
+                    margin: 6px 0 6px 25px;
+                }
+                .li-16{
+                    margin-left: 40px;
+                    list-style-type: none;
+                }
+                    .li-16 li{
+                        font-weight: bold;
+                    }
+                    .li-16 p{
+                        font-size: 12px;
+                    }
+                .li-17{
+                    margin-left: 40px;
+                    list-style-type: none;
+                }
+                    .li-17 li{
+                        padding-bottom: 6px;
+                    }
