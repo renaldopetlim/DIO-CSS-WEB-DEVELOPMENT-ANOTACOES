@@ -632,7 +632,7 @@
                     padding: 4px 20px 4px 20px;
                     background-color: var(--sub-title);
                     border-radius: 10px;
-                    width: 20vw;
+                    width: 25vw;
                 }
                 .unidades p{
                     font-size: 14px;
@@ -649,7 +649,7 @@
                     border-radius: 10px;
                     margin: 6px 0 6px 0;
                     padding: 2px 0 2px 0;
-                    width: 18vw; 
+                    width: 24vw; 
                 }
                 .unidades h6{
                     font-size: 16px;
@@ -672,3 +672,29 @@
                     .li-17 li{
                         padding-bottom: 6px;
                     }
+                .li-18 li{
+                    list-style-type: none;
+                    margin-left: 20px;
+                    font-size: 14px;
+                }
+                .li-19{
+                    margin-left: 25px;
+                }
+                    .li-19 li{
+                        font-size: 14px;
+                        margin-bottom: 4px;
+                    }
+/* -----------------------  ------------------------- */
+
+
+
+
+/* -----------------------  ------------------------- */
+
+/* -----------------------  ------------------------- */
+
+/* -----------------------  ------------------------- */
+
+/* -----------------------  ------------------------- */
+
+/* -----------------------  ------------------------- */
