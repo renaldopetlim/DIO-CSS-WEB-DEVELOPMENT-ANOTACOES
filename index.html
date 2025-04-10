@@ -942,14 +942,49 @@
             </div>
         </article>
 
-        <article>
+        <article class="sombras">
             <h1>Sombras</h1>
-            <div>
-                <h3>Box Shadow</h3>
-                <p>
-                    
-                </p>
+            <div id="sombras">
+                <div>
+                    <h3>Box Shadow</h3>
+                    <p>
+                        Em CSS, a propriedade box-shadow é usada para adicionar sombras a elementos, como 
+                        caixas de div, botões, cartões, etc. Com ela, você pode criar efeitos visuais que 
+                        dão profundidade e destaque aos elementos da página.
+                    </p>
+                    <h5>box-shadow: offset-x offset-y blur-radius spread-radius color;</h5>
+                    <h4>Parâmetros</h4>
+                    <p>
+                        <b>offset-x:</b> deslocamento horizontal da sombra (valor obrigatório).<br>
+                        <b>offset-y:</b> deslocamento vertical da sombra (valor obrigatório).<br>
+                        <b>blur-radius (opcional):</b> o quanto a sombra será borrada (quanto maior, mais suave).<br>
+                        <b>spread-radius (opcional):</b> define o quanto a sombra se expande ou encolhe.<br>
+                        <b>color (opcional):</b> a cor da sombra (pode usar rgba para sombras com transparência).<br>
+                        <b>inset (opcional):</b> se adicionado, faz a sombra aparecer dentro do elemento, ao invés de fora.
+                    </p>
+                </div>
+                <div>
+                    <h3>Drop Shadow</h3>
+                    <p>
+                        A propriedade drop-shadow em CSS é usada dentro da função filter e serve para aplicar 
+                        sombras semelhantes ao box-shadow, mas com algumas diferenças importantes:<br>
+                        Drop-shadow aplica uma sombra a elementos gráficos como imagens, SVGs ou elementos 
+                        com partes transparentes. A sombra respeita o formato real do elemento (inclusive 
+                        transparência), diferente do box-shadow, que sempre segue a caixa retangular do 
+                        elemento.
+                    </p>
+                    <h5>filter: drop-shadow(offset-x offset-y blur-radius color);</h5>
+                </div>
+                <div>
+                    <h3>Text Shadow</h3>
+                    <p>
+                        A propriedade text-shadow em CSS é usada para adicionar sombras ao texto, criando 
+                        efeitos de profundidade, destaque ou até mesmo estilos criativos.
+                    </p>
+                    <h5>text-shadow: offset-x offset-y blur-radius color;</h5>
+                </div>
             </div>
+            
         </article>
 
     </main>
